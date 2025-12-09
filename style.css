@@ -74,6 +74,9 @@ li:hover{
     animation-timing-function: 4s;
 }    
 
+
+
+
 /* Define the keyframes for the rainbow animation */
 @keyframes rainbow_color_animation {
   0% { color: red; }
