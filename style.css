@@ -70,6 +70,8 @@ h2 {
 
 li:hover{
     color: rainbow_color_animation;
+    animation-iteration-count: infinite;
+    animation-timing-function: 4s;
 }    
 
 /* Define the keyframes for the rainbow animation */
