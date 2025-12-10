@@ -1,17 +1,10 @@
 /* style.css */
-:root { /* Define colors for easy changes */
-    --primary-color: #3498db;
-    --secondary-color: #2c3e50;
-    --accent-color: #e74c3c;
-    --light-bg: #f4f4f9;
-    --dark-text: #333;
-}
+
 
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     background-color: var(--light-bg);
-    color: var(--dark-text);
     line-height: 1.6;
 }
 
