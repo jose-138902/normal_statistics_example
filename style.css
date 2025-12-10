@@ -74,6 +74,13 @@ li:hover{
 }    
 
 
+p{
+    color: rainbow_color_animation;
+    animation-iteration-count: infinite;
+     animation-duration: 4s;
+}
+
+
 ul:hover{
     color: rainbow_color_animation;
     animation-iteration-count: infinite;
