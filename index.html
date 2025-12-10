@@ -7,6 +7,33 @@
     <title>My Cool Website</title>
     <link rel="stylesheet" href="style.css">
     <link href="fonts.googleapis.com" rel="stylesheet">
+    <style>
+        li:hover{
+            color:rainbow_animation;
+            animation-duration: 3s;
+            animation-duration-count: infinite;
+        }
+
+        ul:hover{
+            color:rainbow_animation;
+            animation-duration: 3s;
+            animation-duration-count: infinite;
+        }
+
+        
+        @keyframes rainbow_animation {
+          0% { color: red; }
+          14% { color: orange; }
+          28% { color: yellow; }
+          42% { color: green; }
+          56% { color: blue; }
+          70% { color: indigo; }
+          84% { color: violet; }
+          100% { color: red; } /* Loops back to the starting color for a smooth transition */
+        }
+        
+        
+    </style>
 </head>
 <body>
     <header>
